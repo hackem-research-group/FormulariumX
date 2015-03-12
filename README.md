@@ -1,7 +1,7 @@
 # FormulariumX
 
 ## ¿Qué es FormulariumX?
-*FormulariumX es una Aplicación Móvil para Firefox OS, compuesto por formularios muy útil para resolver problemas de Cálculo Integral y Diferencial.
+*FormulariumX es una Aplicación Móvil para Firefox OS, compuesta por varios formularios, muy útil para resolver problemas de Cálculo Integral y Diferencial.*
 
 ## ¿Cómo instalar la aplicación o clonar el repositorio?
 
