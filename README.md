@@ -17,7 +17,9 @@ Abre el archivo `FormulariumX/index.html` en tu navegador.
 
 ## Ayuda y Soporte
 
-*Pendiente.*
+Puedes contactarnos a través de un mensaje privado a las siguientes páginas:
+* https://www.facebook.com/hackem.epn
+* https://www.facebook.com/Mozilla.Firefox.Hackem.Club
 
 ## Licencia
 
