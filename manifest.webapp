@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "name": "FormulariumX",
+  "description": "Formulario muy útil para resolver problemas de Cálculo Integral y Diferencial.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/formulariumX-16.png",
+    "48": "/img/icons/formulariumX-48.png",
+    "60": "/img/icons/formulariumX-60.png",
+    "128": "/img/icons/formulariumX-128.png"
+  },
+  "developer": {
+    "name": "Mozilla Firefox Hackem Club - Hackem Research Group",
+    "url": "http://www.hackem.org"
+  },
+  "installs_allowed_from": ["*"],
+  "locales": {
+    "es": {
+      "description": "Formulario muy útil para resolver problemas de Cálculo Integral y Diferencial."
+    },
+    "en": {
+      "description": "Set of useful formulas for solving Integral and Differential Calculus problems."
+    }
+  },
+  "default_locale": "es"
+}
