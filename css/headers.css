@@ -1,0 +1,76 @@
+/*Titulo de Ventana*/
+/*Sobre el fondo del título*/
+
+section[role="region"] > header:first-child {
+    position: relative;
+    display: block;
+    z-index: 10;
+    padding: 0;
+    height: 5rem;
+    border: none;
+    position: fixed;
+    width: 100%;
+}
+/*Sobre el texto del título*/
+
+section[role="region"] > header:first-child h1 {
+    font-size: 2.3rem;
+    line-height: 5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 1rem;
+    height: 100%;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+/*Boton en barra de título*/
+
+section[role="region"] > header:first-child a {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    float: left;
+    min-width: 5rem;
+    width: auto;
+    height: 5rem;
+    border: none;
+    background: none;
+    padding: 0 1rem;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: none;
+    font-style: italic;
+}
+/*Quitar el focus cuando se presiona el boton*/
+
+section[role="region"] > header:first-child a:focus {
+    outline: none;
+}
+/* revisar sobre icono
+
+section[role="region"] > header:first-child .icon {
+  display: block;
+  width: 3rem;
+  height: 5rem;
+  background-image: "img/icons/back.svg";
+  background: transparent no-repeat center / 3rem auto;
+  font-size: 0;
+}
+
+*/
+/*Colores barra de titulo*/
+
+section[role="region"] > header:first-child {
+    color: #fff;
+    background-color: #f97c17;
+}
