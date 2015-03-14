@@ -13,7 +13,6 @@
     "name": "Mozilla Firefox Hackem Club - Hackem Research Group",
     "url": "http://www.hackem.org"
   },
-  "installs_allowed_from": ["*"],
   "locales": {
     "es": {
       "description": "Formulario muy útil para resolver problemas de Cálculo Integral y Diferencial."

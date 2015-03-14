@@ -1,0 +1,44 @@
+/*configuración de las listas*/
+
+[data-type="list"] li {
+    width: 100%;
+    height: 6rem;
+    box-sizing: border-box;
+    border-bottom: solid 0.1rem #e7e7e7;
+    color: #333;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+/* ultimo elemento de la lista*/
+
+[data-type="list"] li:last-child {
+    border: none;
+}
+/* fondo sobre lista*/
+
+li a:hover {
+    background-color: #E0FFFF;
+}
+/*configuración listas caja a*/
+
+[data-type="list"] li > a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    height: 6rem;
+    position: relative;
+    border: none;
+    outline: none;
+}
+/*configuración listas caja p*/
+
+[data-type="list"] li p {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #333;
+    padding: 1rem 0 0;
+    line-height: 4rem;
+    padding-left: 1.5rem
+}
