@@ -2,116 +2,233 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <title>FormulariumX</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>FormulariumX</title>
 
-    <!-- Start MathJax -->
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-    </script>
-    <script src="js/MathJax/MathJax.js?config=TeX-AMS_HTML-full">
-    </script>
+<!-- Start MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script src="js/MathJax/MathJax.js?config=TeX-AMS_HTML-full">
+</script>
 
-    <!-- End MathJax -->
+<!-- End MathJax -->
 
-    <link rel="stylesheet" href="css/headers.css">
-    <link rel="stylesheet" href="css/lists.css">
-    <link rel="stylesheet" href="css/util.css">
+<link rel="stylesheet" href="css/headers.css">
+<link rel="stylesheet" href="css/lists.css">
+<link rel="stylesheet" href="css/util.css">
 
-    <!-- Transitions -->
-    <link rel="stylesheet" href="css/transitions.css">
-    <link rel="stylesheet" href="css/navegation.css">
+<!-- Transitions -->
+<link rel="stylesheet" href="css/transitions.css">
+<link rel="stylesheet" href="css/navegation.css">
 
 </head>
 
 <body>
-    <section id="index" data-position="current">
-        <section id="drawer" role="region">
-            <header>
-                <h1>FormulariumX</h1>
-            </header>
-            <article class="scrollable header">
-                <div data-type="list">
-                    <ul>
-                        <li>
-                            <a id="btn-limites" href="#">
-                                <p>Limites</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btn-derivadas" href="#">
-                                <p>Derivadas</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btn-integrales" href="#">
-                                <p>Integrales</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btn-acerca-de" href="#">
-                                <p>Acerca de</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btn-salir" href="#">
-                                <p>Salir</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-        </section>
-    </section>
+<section id="index" data-position="current">
+  <section id="drawer" role="region">
+    <header>
+      <h1>FormulariumX</h1>
+    </header>
+    <article class="scrollable header">
+      <div data-type="list">
+        <ul>
+          <li>
+          <a id="btn-limites" href="#">
+            <p>Limites</p>
+          </a>
+          </li>
+          <li>
+          <a id="btn-derivadas" href="#">
+            <p>Derivadas</p>
+          </a>
+          </li>
+          <li>
+          <a id="btn-integrales" href="#">
+            <p>Integrales</p>
+          </a>
+          </li>
+          <li>
+          <a id="btn-acerca-de" href="#">
+            <p>Acerca de</p>
+          </a>
+          </li>
+          <li>
+          <a id="btn-salir" href="#">
+            <p>Salir</p>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </section>
+</section>
 
-    <!--···························· Limites ····························-->
-    <section role="region" id="limites" data-position="right">
-        <header>
-            <a id="btn-buttons-back-limites" href="#"><span class="icon-back">regresar</span></a>
-            <h1>Limites</h1>
-            <div data-type="list">
-                <ul>
-                    <li>
-                        <p>prueba</p>
-                        <math>
-                            $\frac{d}{dx} F(x)dx = f(x) \longrightarrow \int f(x) dx = F(x) + k $
-                        </math>
-                    </li>
-                </ul>
-            </div>
-        </header>
-    </section>
+<!--···························· Limites ····························-->
+<section role="region" id="limites" data-position="right">
+  <header>
+    <a id="btn-buttons-back-limites" href="#"><span class="icon-back">regresar</span></a>
+    <h1>Limites</h1>
+    <div data-type="list">
+      <ul>
+        <li>
+        <p>prueba</p>
+        <math>
+          $\frac{d}{dx} F(x)dx = f(x) \longrightarrow \int f(x) dx = F(x) + k $
+        </math>
+        </li>
+      </ul>
+    </div>
+  </header>
+</section>
 
-    <!--···························· Derivadas ····························-->
-    <section role="region" id="derivadas" data-position="right">
-        <header>
-            <a id="btn-buttons-back-derivadas" href="#"><span class="icon-back">regresar</span></a>
-            <h1>Derivadas</h1>
-        </header>
-    </section>
+<!--···························· Derivadas ····························-->
+<section role="region" id="derivadas" data-position="right">
+  <header>
+    <a id="btn-buttons-back-derivadas" href="#"><span class="icon-back">regresar</span></a>
+    <h1>Derivadas</h1>
+  </header>
+</section>
 
-    <!--···························· Integrales ····························-->
-    <section role="region" id="integrales" data-position="right">
-        <header>
-            <a id="btn-buttons-back-integrales" href="#"><span class="icon-back">regresar</span></a>
-            <h1>Integrales</h1>
-        </header>
-    </section>
+<!--···························· Integrales ····························-->
+<section role="region" id="integrales" data-position="right">
+  <header>
+    <a id="btn-buttons-back-integrales" href="#"><span class="icon-back">regresar</span></a>
+    <h1>Integrales</h1>
+  </header>
+  <article>
+    <h1><strong>Reglas principales</strong></h1>
+    <div data-type="list">
+    <ol>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#10230;</mo><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>k</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>A</mi><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>A</mi><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>,</mo><mo>&#160;</mo><mtext>donde&#160;A&#160;es&#160;una&#160;constante.</mtext></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mo>[</mo><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#177;</mo><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>&#8747;</mo><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>&#177;</mo><mo>&#8747;</mo><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi><mo>&#160;</mo><mi>y</mi><mo>&#160;</mo><mi>u</mi><mo>=</mo><mi>&#981;</mi><mo>(</mo><mi>x</mi><mo>)</mo><mtext>,&#160;se&#160;tiene,</mtext><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>u</mi><mo>)</mo><mi>d</mi><mi>u</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>u</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+    </ol>
+    </div>
+    <h1><strong>Tabla de integrales inmediatas</strong></h1>
+    <div data-type="list">
+    <ol>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><msup><mi>x</mi><mi>n</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>C</mi><mtext>,&#160;</mtext><mi>n</mi><mo>&#8800;</mo><mo>-</mo><mn>1</mn></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mi>ln</mi><mo>|</mo><mi>x</mi><mo>|</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>arctan</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mi>ln</mi><mrow><mo>|</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mi>a</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>|</mo></mrow><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&#8800;</mo><mn>0</mn><mo>)</mo></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></msqrt></mfrac><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>x</mi><mo>+</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></msqrt></mrow></mfenced><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&#8800;</mo><mn>0</mn><mo>)</mo></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></mfrac><mo>=</mo><mi>arcsin</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><mi>C</mi><mo>=</mo><mo>-</mo><mi>arccos</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><msub><mi>C</mi><mn>1</mn></msub><mo>(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>)</mo></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><msup><mi>a</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>a</mi><mi>x</mi></msup><mrow><mi>ln</mi><mi>a</mi></mrow></mfrac><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>)</mo><mo>;</mo><mo>&#8747;</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>s</mi><mi>e</mi><mi>n</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&#8747;</mo><msup><mi>sec</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>tan</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&#8747;</mo><msup><mi>csc</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mi>cot</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>tan</mi><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mo>+</mo><mi>C</mi><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>csc</mi><mi>x</mi><mo>-</mo><mi>cot</mi><mi>x</mi></mrow></mfenced><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>ln</mi><mo>|</mo><mi>tan</mi><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac><mo>)</mo><mo>|</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>sinh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>cosh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>cosh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>s</mi><mi>i</mi><mi>n</mi><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>cosh</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>tanh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+      <li>
+      <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sinh</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>-</mo><mi>coth</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+      </math>
+      </li>
+    </ol>
+    </div>
+  </article>
+</section>
 
-    <!--···························· Acerca de ····························-->
-    <section role="region" id="acerca-de" data-position="right">
-        <header>
-            <a id="btn-buttons-back-acerca-de" href="#"><span class="icon-back">regresar</span></a>
-            <h1>Acerca de</h1>
-        </header>
-    </section>
+<!--···························· Acerca de ····························-->
+<section role="region" id="acerca-de" data-position="right">
+  <header>
+    <a id="btn-buttons-back-acerca-de" href="#"><span class="icon-back">regresar</span></a>
+    <h1>Acerca de</h1>
+  </header>
+</section>
 
-    <!--···························· Salir ····························-->
-    <section role="region" id="salir" data-position="right">
-    </section>
+<!--···························· Salir ····························-->
+<section role="region" id="salir" data-position="right">
+</section>
 
-    <script type="text/javascript" defer src="js/app.js"></script>
+<script type="text/javascript" defer src="js/app.js"></script>
 
 </body>
 
