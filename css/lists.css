@@ -10,6 +10,11 @@
     display: block;
     position: relative;
 }
+
+/* lista autor */
+[data-type="list"] .autor{
+    border: none;
+}
 /* ultimo elemento de la lista*/
 
 [data-type="list"] li:last-child {

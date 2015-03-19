@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: normal;
 }
 
@@ -61,4 +61,11 @@ li {
     font-size: 1.9rem;
     font-weight: normal;
     line-height: 2.5rem;
+}
+
+/* imagen acerca de */
+.imgHackem {
+    display: block;
+    width: 50%;
+    margin: 2% 25% 2% 25%;
 }
