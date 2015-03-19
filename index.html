@@ -59,8 +59,8 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
             <p>Salir</p>
           </a>
           </li>
-        </ul>
       </div>
+        </ul>
     </article>
   </section>
 </section>
@@ -70,17 +70,57 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
   <header>
     <a id="btn-buttons-back-limites" href="#"><span class="icon-back">regresar</span></a>
     <h1>Limites</h1>
+
+  </header>
+  <article class="scrollable header"> 
+    <h1><strong>Reglas principales</strong></h1>
     <div data-type="list">
       <ul>
         <li>
-        <p>prueba</p>
-        <math>
-          $\frac{d}{dx} F(x)dx = f(x) \longrightarrow \int f(x) dx = F(x) + k $
-        </math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mi>k</mi><mo>=</mo><mi>k</mi></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>x</mi><mo>=</mo><mi>c</mi></math> 
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>k</mi><mo>&#183;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>k</mi><mo>&#183;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mo>(</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#177;</mo><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>=</mo><mi>l</mi><mi>i</mi><msub><mi>m</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></msub><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#177;</mo><mi>l</mi><mi>i</mi><msub><mi>m</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></msub><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mo>(</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#183;</mo><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>=</mo><mi>l</mi><mi>i</mi><msub><mi>m</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></msub><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#183;</mo><mi>l</mi><mi>i</mi><msub><mi>m</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></msub><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mfrac><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></msub><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></msub><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>,</mo><mo>&#160;</mo><mtext>si,&#160;</mtext><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#8800;</mo><mn>0</mn></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mrow><mi>f</mi><mo>(</mo><mi>x</mi><msup><mo>)</mo><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></msup></mrow><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>f</mi><mo>(</mo><mi>x</mi><msup><mo>)</mo><mrow><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></msup><mtext>si&#160;</mtext><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>log</mi><mrow><mo>(</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow><mo>=</mo><mi>log</mi><mrow><mo>(</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>c</mi></mrow></munder><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo>)</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></msup></mrow><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><msup><mo>)</mo><mi>x</mi></msup></mrow><mo>=</mo><mi>e</mi></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo>=</mo><mi>ln</mi><mo>(</mo><mi>a</mi><mo>)</mo></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>arcsin</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></math>
+        </li>
+        <li>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>arctan</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></math>
         </li>
       </ul>
     </div>
-  </header>
+  </article>
 </section>
 
 <!--···························· Derivadas ····························-->
@@ -97,121 +137,121 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     <a id="btn-buttons-back-integrales" href="#"><span class="icon-back">regresar</span></a>
     <h1>Integrales</h1>
   </header>
-  <article>
+  <article class="scrollable header">
     <h1><strong>Reglas principales</strong></h1>
     <div data-type="list">
-    <ol>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#10230;</mo><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>k</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>A</mi><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>A</mi><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>,</mo><mo>&#160;</mo><mtext>donde&#160;A&#160;es&#160;una&#160;constante.</mtext></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mo>[</mo><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#177;</mo><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>&#8747;</mo><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>&#177;</mo><mo>&#8747;</mo><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi><mo>&#160;</mo><mi>y</mi><mo>&#160;</mo><mi>u</mi><mo>=</mo><mi>&#981;</mi><mo>(</mo><mi>x</mi><mo>)</mo><mtext>,&#160;se&#160;tiene,</mtext><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>u</mi><mo>)</mo><mi>d</mi><mi>u</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>u</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-    </ol>
+      <ol>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#10230;</mo><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>k</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>A</mi><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>A</mi><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>,</mo><mo>&#160;</mo><mtext>donde&#160;A&#160;es&#160;una&#160;constante.</mtext></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mo>[</mo><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#177;</mo><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>&#8747;</mo><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>&#177;</mo><mo>&#8747;</mo><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi><mo>&#160;</mo><mi>y</mi><mo>&#160;</mo><mi>u</mi><mo>=</mo><mi>&#981;</mi><mo>(</mo><mi>x</mi><mo>)</mo><mtext>,&#160;se&#160;tiene,</mtext><mo>&#8747;</mo><mi>f</mi><mo>(</mo><mi>u</mi><mo>)</mo><mi>d</mi><mi>u</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>u</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+      </ol>
     </div>
     <h1><strong>Tabla de integrales inmediatas</strong></h1>
     <div data-type="list">
-    <ol>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><msup><mi>x</mi><mi>n</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>C</mi><mtext>,&#160;</mtext><mi>n</mi><mo>&#8800;</mo><mo>-</mo><mn>1</mn></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mi>ln</mi><mo>|</mo><mi>x</mi><mo>|</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>arctan</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mi>ln</mi><mrow><mo>|</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mi>a</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>|</mo></mrow><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&#8800;</mo><mn>0</mn><mo>)</mo></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></msqrt></mfrac><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>x</mi><mo>+</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></msqrt></mrow></mfenced><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&#8800;</mo><mn>0</mn><mo>)</mo></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></mfrac><mo>=</mo><mi>arcsin</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><mi>C</mi><mo>=</mo><mo>-</mo><mi>arccos</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><msub><mi>C</mi><mn>1</mn></msub><mo>(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>)</mo></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><msup><mi>a</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>a</mi><mi>x</mi></msup><mrow><mi>ln</mi><mi>a</mi></mrow></mfrac><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>)</mo><mo>;</mo><mo>&#8747;</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>s</mi><mi>e</mi><mi>n</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&#8747;</mo><msup><mi>sec</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>tan</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&#8747;</mo><msup><mi>csc</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mi>cot</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>tan</mi><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mo>+</mo><mi>C</mi><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>csc</mi><mi>x</mi><mo>-</mo><mi>cot</mi><mi>x</mi></mrow></mfenced><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>ln</mi><mo>|</mo><mi>tan</mi><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac><mo>)</mo><mo>|</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>sinh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>cosh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>cosh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>s</mi><mi>i</mi><mi>n</mi><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>cosh</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>tanh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-      <li>
-      <math>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sinh</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>-</mo><mi>coth</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
-      </math>
-      </li>
-    </ol>
+      <ol>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><msup><mi>x</mi><mi>n</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>C</mi><mtext>,&#160;</mtext><mi>n</mi><mo>&#8800;</mo><mo>-</mo><mn>1</mn></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mi>ln</mi><mo>|</mo><mi>x</mi><mo>|</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>arctan</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mi>ln</mi><mrow><mo>|</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mi>a</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>|</mo></mrow><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&#8800;</mo><mn>0</mn><mo>)</mo></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></msqrt></mfrac><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>x</mi><mo>+</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></msqrt></mrow></mfenced><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&#8800;</mo><mn>0</mn><mo>)</mo></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></mfrac><mo>=</mo><mi>arcsin</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><mi>C</mi><mo>=</mo><mo>-</mo><mi>arccos</mi><mfrac><mi>x</mi><mi>a</mi></mfrac><mo>+</mo><msub><mi>C</mi><mn>1</mn></msub><mo>(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>)</mo></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><msup><mi>a</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>a</mi><mi>x</mi></msup><mrow><mi>ln</mi><mi>a</mi></mrow></mfrac><mo>+</mo><mi>C</mi><mo>,</mo><mo>(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>)</mo><mo>;</mo><mo>&#8747;</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>s</mi><mi>e</mi><mi>n</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&#8747;</mo><msup><mi>sec</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>tan</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&#8747;</mo><msup><mi>csc</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mi>cot</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>tan</mi><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mo>+</mo><mi>C</mi><mo>=</mo><mi>ln</mi><mfenced open="|" close="|"><mrow><mi>csc</mi><mi>x</mi><mo>-</mo><mi>cot</mi><mi>x</mi></mrow></mfenced><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>ln</mi><mo>|</mo><mi>tan</mi><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac><mo>)</mo><mo>|</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>sinh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>cosh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mi>cosh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>s</mi><mi>i</mi><mi>n</mi><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>cosh</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mi>tanh</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+        <li>
+        <math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sinh</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mo>-</mo><mi>coth</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>C</mi></math>
+        </math>
+        </li>
+      </ol>
     </div>
   </article>
 </section>
